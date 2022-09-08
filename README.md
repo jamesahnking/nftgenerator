@@ -1,5 +1,9 @@
 # pillarsandringsnft
 
+![](https://subtlemint.io/)
+![](https://opensea.io/collection/pillars-and-rings)
+
+
 Create generative art by using the canvas api and node js
 
 ![](https://github.com/jamesahnking/pillarsandringsgennftapp/blob/main/src/preview.png)
