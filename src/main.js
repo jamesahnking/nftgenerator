@@ -110,6 +110,7 @@ const addAttributes = (_element, _layer) => {
   decodedHash.push({ [_layer.id]: _element.id });
 };
 
+// Draw image to file based on layers
 const drawLayer = async (_layer, _edition) => {
   let element =
     _layer.elements[Math.floor(Math.random() * _layer.elements.length)];
@@ -123,6 +124,7 @@ const drawLayer = async (_layer, _edition) => {
     _layer.size.width,
     _layer.size.height
   );
+  // Save image to file
   saveLayer(canvas, _edition);
 };
 
