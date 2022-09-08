@@ -2,7 +2,7 @@
 
 Create generative art by using the canvas api and node js
 
-![](https://github.com/jamesahnking/pillarsandringsnft/blob/main/src/priview.png)
+![](https://github.com/jamesahnking/pillarsandringsgennftapp/blob/main/src/preview.png)
 
 ## Installation
 
