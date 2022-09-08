@@ -4,7 +4,7 @@ const console = require("console"); //
 const { layersOrder, format, rarity } = require("./config.js");
 
 const canvas = createCanvas(format.width, format.height); // create the canvas
-const ctx = canvas.getContext("2d"); // library dimension
+const ctx = canvas.getContext("2d"); // create context for drawing with Canvas api
 
 if (!process.env.PWD) {
   process.env.PWD = process.cwd();
@@ -78,10 +78,13 @@ const buildSetup = () => {
   fs.mkdirSync(buildDir);
 };
 
+
+// Save image to file 
 const saveLayer = (_canvas, _edition) => {
   fs.writeFileSync(`${buildDir}/${_edition}.png`, _canvas.toBuffer("image/png"));
 };
 
+// Generate and add metadata
 const addMetadata = _edition => {
   let dateTime = Date.now();
   let tempMetadata = {
@@ -97,6 +100,7 @@ const addMetadata = _edition => {
   decodedHash = [];
 };
 
+// Generate and add traits
 const addAttributes = (_element, _layer) => {
   let tempAttr = {
     id: _element.id,
@@ -110,7 +114,7 @@ const addAttributes = (_element, _layer) => {
   decodedHash.push({ [_layer.id]: _element.id });
 };
 
-// Draw image to file based on layers
+// Draw image and save image as a single file
 const drawLayer = async (_layer, _edition) => {
   let element =
     _layer.elements[Math.floor(Math.random() * _layer.elements.length)];
@@ -128,7 +132,7 @@ const drawLayer = async (_layer, _edition) => {
   saveLayer(canvas, _edition);
 };
 
-// generate final file 
+// Generate final file 
 const createFiles = edition => {
   const layers = layersSetup(layersOrder);
 
@@ -141,6 +145,7 @@ const createFiles = edition => {
   }
 };
 
+// Generate and save metadata file
 const createMetaData = () => {
   fs.stat(`${buildDir}/${metDataFile}`, (err) => {
     if(err == null || err.code === 'ENOENT') {
