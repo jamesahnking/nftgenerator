@@ -1,8 +1,8 @@
 # pillarsandringsnft
 
-![Pillars and Rings Minting Dapp](https://subtlemint.io/)
+[Pillars and Rings Minting Dapp](https://subtlemint.io/)
 
-![Pillars and Rings OpenSea Collection](https://opensea.io/collection/pillars-and-rings)
+[Pillars and Rings OpenSea Collection](https://opensea.io/collection/pillars-and-rings)
 
 
 Create generative art by using the canvas api and node js
