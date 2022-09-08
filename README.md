@@ -7,7 +7,7 @@ Create generative art by using the canvas api and node js
 ## Installation
 
 ```
-git clone https://github.com/jamesahnking/pillarsandringsnft.git
+git clone https://github.com/jamesahnking/pillarsandringsgennftapp.git
 
 npm install
 ```
