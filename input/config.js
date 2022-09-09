@@ -19,7 +19,7 @@ const pillringWeights = [
   ];
 
 // asset objects 
-// const races = {
+// const for images  = {
 const pillarsandrings = {  
     artwork: {
       name: "PillarsAndRings",
@@ -33,13 +33,13 @@ const pillarsandrings = {
               id: 0,
               name: "Silver",
               path: `${dir}/background/00A_BG_C6C6C5.png`,
-              weight: 90,
+              weight: 1,
            }, 
             {   
                 id: 1,
                 name: "Dust Storm",
                 path: `${dir}/background/00A_BG_E0D2C3.png`,
-                weight: 80,
+                weight: 9,
 
             },
 
@@ -47,7 +47,7 @@ const pillarsandrings = {
                 id: 2,
                 name: "Northern Lights Blue",
                 path: `${dir}/background/00A_BG_68C7BD.png`,
-                weight: 70,
+                weight: 10,
             },
             
          
@@ -55,49 +55,49 @@ const pillarsandrings = {
                 id: 3,
                 name: "Deluge",
                 path: `${dir}/background/00A_BG_8462AA.png`,
-                weight: 60,
+                weight: 10,
             },
           
             {   
                 id: 4,
                 name: "Flamingo Pink",
                 path: `${dir}/background/00A_BG_F7A8A5.png`,
-                weight: 50,
+                weight: 10,
             },  
          
             {   
                 id: 5,
                 name: "Pumpkin Orange",
                 path: `${dir}/background/00A_BG_F47B20.png`,
-                weight: 40,
+                weight: 10,
             },  
 
             {   
                 id: 6,
                 name: "Dawn Pink",
                 path: `${dir}/background/00A_BG_FDE6EB.png`,
-                weight: 30,
+                weight: 10,
             },  
        
             {   
                 id: 7,
                 name: "Aureolin",
                 path: `${dir}/background/00A_BG_FEE900.png`,
-                weight: 20,
+                weight: 10,
             },  
 
             {
               id: 8,
               name: "Picton Blue",
               path: `${dir}/background/00A_BG_37B8EA.png`,
-              weight: 9,
+              weight: 10,
           },
 
           {   
             id: 9,
             name: "Black Pearl",
             path: `${dir}/background/00A_BG_08151B.png`,
-            weight: 1,
+            weight: 10,
         },
         ],
           position: { x: 0, y: 0 },
@@ -127,7 +127,7 @@ const pillarsandrings = {
             id: 2,
             name: "Teal",
             path: `${dir}/firstring/000_Circle_079396.png`,
-            weight: 25,
+            weight: 20,
         },  
         // input/c0/000_Circle_079396.png   
       ],
@@ -152,7 +152,7 @@ const pillarsandrings = {
               id: 1,
               name: "Cosmos",
               path: `${dir}/firstpillar/007_Dash_FCD6CE.png`,
-              weight: 45,
+              weight: 35,
             },
             
             {
@@ -375,7 +375,7 @@ const pillarsandrings = {
             id: 2,
             name: "Platinum",
             path: `${dir}/sixthring/005_Circle_EBE4DB.png`,
-            weight: 30,
+            weight: 40,
           },
         //   input/c5/005_Circle_EBE4DB.png
 
@@ -491,7 +491,4 @@ module.exports = {
   endEditionAt,
   pillarsandrings,
   pillringWeights,
-
-  // races,
-  // raceWeights,
 };
