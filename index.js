@@ -86,9 +86,10 @@ const drawElement = (_element) => {
   addAttributes(_element);
 };
 
-// Convert Lywea ro DNA 
+// Convert Layers to DNA 
 const constructLayerToDna = (_dna = [], _pillarsandrings = [], _pillarsandring) => {
   let mappedDnaToLayers = _pillarsandrings[_pillarsandring].layers.map((layer, index) => {
+    // find element on screen and render it
     let selectedElement = layer.elements.find((e) => e.id == _dna[index]);
     return {
       name: layer.name,
@@ -101,6 +102,7 @@ const constructLayerToDna = (_dna = [], _pillarsandrings = [], _pillarsandring) 
   return mappedDnaToLayers;
 };
 
+// Get the Weight(Rarity) of each laywer
 const getRingPillar = (_editionCount) => {
   let pillarsandring = "No Pillars No Rings";
   pillringWeights.forEach((pillringWeight) => {
@@ -116,7 +118,7 @@ const isDnaUnique = (_DnaList = [], _dna = []) => {
   return foundDna == undefined ? true : false;
 };
 
-// select element and rarity weights 
+// Generate DNA based on a generated randome number between 1 - 100
 const createDna = (_pillarsandrings, _pillarsandring) => {
   let randNum = [];
   _pillarsandrings[_pillarsandring].layers.forEach((layer) => {
