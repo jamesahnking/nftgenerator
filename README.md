@@ -2,6 +2,8 @@
 
 [Pillars and Rings Minting Dapp](https://subtlemint.io/)
 
+Customization of NFT Generator created by HashLips https://github.com/HashLips/hashlips_art_engine
+
 [Pillars and Rings OpenSea Collection](https://opensea.io/collection/pillars-and-rings)
 
 
