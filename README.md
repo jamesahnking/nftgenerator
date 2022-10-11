@@ -1,4 +1,4 @@
-# pillarsandringsnft
+# Pillars And Rings NFT Generator Application
 
 [Pillars and Rings Minting Dapp](https://subtlemint.io/)
 
