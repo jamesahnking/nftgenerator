@@ -1,8 +1,8 @@
-# Pillars And Rings NFT Generator Application
+# Hashlips Pillars And Rings NFT Generator Application
 
 [Pillars and Rings Minting Dapp](https://subtlemint.io/)
 
-Customization of NFT Generator created by HashLips https://github.com/HashLips/hashlips_art_engine
+NFT Generator created by HashLips and customized for Pillars and Rings https://github.com/HashLips/hashlips_art_engine
 
 [Pillars and Rings OpenSea Collection](https://opensea.io/collection/pillars-and-rings)
 
