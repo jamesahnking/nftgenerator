@@ -1,4 +1,4 @@
-# Hashlips Pillars And Rings NFT Generator Application
+# Pillars And Rings NFT Generator Application
 
 [Pillars and Rings Minting Dapp](https://subtlemint.io/)
 
@@ -23,3 +23,4 @@ npm install
 npm index.js
 
 ```
+
